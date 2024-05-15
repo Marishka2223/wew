@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masha Landing</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+     <!---
+        ==============
+        МЕНЮ НАВИГАЦИИ
+        ==============
+    -->
+
+    <div id="menuxa">
+      
+       
+        <div id="men-main">
+         <h1 id="logo">Logo example</h1>
+         <div id="ico">
+            <ul>
+                <button class="button" onclick="goToBlock1()">Перейти к блоку 1</button>
+                 <button class="button" onclick="goToBlock2()">Перейти к блоку 2</button>
+                 <button class="button" onclick="goToBlock3()">Перейти к блоку 3</button>
+                 <button class="button" onclick="goToBlock4()">Перейти к блоку 4</button>
+
+            </ul>
+            </div>
+        </div>
+
+    </div>
+
+    
+      
+  
+</header>
+
+    <div id="block1">
+       <div id="clockmeri">
+
+
+
+       </div>
+    </div>
+
+
+
+    <div id="block2">
+        <div id="pidrillos">
+
+
+        </div>
+    </div>
+
+
+
+    <div id="block3">
+        <div id="clockmeri">
+
+
+
+        </div>
+    </div>
+
+
+
+    <div id="block4">
+        <div id="clockmeri">
+
+
+
+        </div>
+    </div>
+
+
+ <!---
+        ==============
+         СКРИПТ ДЛЯ ПЕРЕХОДА К СЕКЦИЯМ
+        ==============
+    -->
+    <script>
+        function goToBlock2() {
+            document.getElementById('block2').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function goToBlock1() {
+            document.getElementById('block1').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function goToBlock3() {
+            document.getElementById('block3').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function goToBlock4() {
+            document.getElementById('block4').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+
+
+</body>
+<footer id="podval">
+
+    <div id="credits">
+
+        <div id="menushik">
+            <a id="well" >menu</a>
+            <br>
+            <button class="button2" onclick="goToBlock1()">Перейти к блоку 1</button>
+                 <button class="button2" onclick="goToBlock2()">Перейти к блоку 2</button>
+                 <button class="button2" onclick="goToBlock3()">Перейти к блоку 3</button>
+                 <button class="button2" onclick="goToBlock4()">Перейти к блоку 4</button>
+
+    
+        </div>
+
+        <a id="tekst" href="#" onclick="goToBlock2()" >Наша продукция</a>
+        <a id="tekst">adress:<br>Ленинградская обл., Гатчинский р-н, д. Рябизи, ул. Фермерская,1А<br> +7 (812) 602-59-14<br><br>
+            пн-сб 09:00-21:00,<br>
+            
+            вc.  14:00 - 21:00</a>
+
+
+    </div>
+
+     <br><br>
+
+
+</footer>
+
+</html>
